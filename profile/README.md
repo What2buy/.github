@@ -89,6 +89,23 @@
 ### 2. 크롬 익스텐션 실행 방법
 다음의 [READ ME](https://github.com/Solchall/chrome-extension/blob/main/Crawl%20Multi%20Tabs%20-%20React/README.md)과정을 따라 직접 실행할 수 있습니다.
 
+<table>
+    <tr>
+       <th>Web Content 접근 버튼 클릭 전</th>
+       <th>지정한 탭에서만 Web Contents 끌어옴</th>
+        <th>지정한 탭 아닌 곳에서는 텍스트 색상 변경함</th>
+   </tr>
+    <tr>
+       <td><img width="1425" alt="image" src="https://github.com/Solchall/.github/assets/67853616/89da4c96-0882-4f55-83ea-03aef55b1098"></td>
+       <td><img width="1391" alt="image" src="https://github.com/Solchall/.github/assets/67853616/3a0fdd05-eef1-4fc2-a427-751260374b7f"></td>
+       <td><img width="1108" alt="image" src="https://github.com/Solchall/.github/assets/67853616/901c67f1-de38-4fcd-90d0-b6a1bcbb87aa"></td></tr>
+</table>
+
+
+
+
+
+
 ### 3. 주요 구현 코드
 
 **3-1. 다중 Tab 제어**
