@@ -62,3 +62,8 @@
 
 
 ## Chrome Extenstion Interacting with Web Site
+
+* [x] UI 및 인터랙션 플로우  - 프로토 타입
+* [x] open된 다수의 탭의 정보 불러오기
+* [x] open된 다수의 탭 중 host에 따른 서로 다른 web content 조작 구동
+* [x] open된 다수의 탭의 web content (썸네일, 제목, 조회수/좋아요) 정보 가져와 팝업 창에 조회수 순 나열
