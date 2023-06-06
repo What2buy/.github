@@ -63,7 +63,22 @@
 
 ## Chrome Extenstion Interacting with Web Site
 
+### Todo : 크롬 익스텐션 요소 기술 구현 확인
 * [x] UI 및 인터랙션 플로우  - 프로토 타입
+[깃허브 레포](https://github.com/Solchall/chrome-extension/tree/main/Crawl%20Multi%20Tabs%20-%20React)
 * [x] open된 다수의 탭의 정보 불러오기
 * [x] open된 다수의 탭 중 host에 따른 서로 다른 web content 조작 구동
 * [x] open된 다수의 탭의 web content (썸네일, 제목, 조회수/좋아요) 정보 가져와 팝업 창에 조회수 순 나열
+[깃허브 레포](https://github.com/Solchall/chrome-extension/tree/main/API%20-%20Option%20Page)
+* [x] 익스텐션 웹페이지 form 생성과 유저 입력값 핸들링
+* [x] 익스텐션 웹페이지 내 http 기반 REST API 연결
+* [X] chrome Storage 값 get/set
+* [ ] 익스텐션 팝업 내 web socket 기반 채팅 통신
+* [ ] 익스텐션 팝업 내 페이지 전환 기법에 대응하는 기술 
+
+### 크롬 익스텐션 실행 방법
+[설명 READ ME](https://github.com/Solchall/chrome-extension/blob/main/Crawl%20Multi%20Tabs%20-%20React/README.md)
+
+
+
+
