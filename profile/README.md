@@ -1,5 +1,8 @@
 # 뭐 찾으세요?: 온라인 가상 점원 서비스
 
+## Service Flow
+[Service Flow](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXCSOD%2FbtsiOHaZXuD%2FJ2NNaPCC8urxb9AVehSeyK%2Fimg.png)
+
 ## Prototype
 
 [Figma](https://www.figma.com/proto/yS1dxiMOGnS8T1DuY0D3aB/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90?page-id=201%3A6&type=design&node-id=308-499&viewport=106%2C618%2C0.04&scaling=scale-down&starting-point-node-id=308%3A94)
