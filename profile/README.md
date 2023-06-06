@@ -1,9 +1,9 @@
 # 뭐 찾으세요?: 온라인 가상 점원 서비스
 
-## Service Flow
+## 👕 Service Flow
 ![Service Flow](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXCSOD%2FbtsiOHaZXuD%2FJ2NNaPCC8urxb9AVehSeyK%2Fimg.png)
 
-## Prototype
+## 👗 Prototype
 
 [Figma](https://www.figma.com/proto/yS1dxiMOGnS8T1DuY0D3aB/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90?page-id=201%3A6&type=design&node-id=308-499&viewport=106%2C618%2C0.04&scaling=scale-down&starting-point-node-id=308%3A94)
 
@@ -12,8 +12,8 @@
 <br>
 
 
-## Prompt Engineering and LLMs with Langchain
-### 상품 DB 필터링 API
+## 👒 Prompt Engineering and LLMs with Langchain
+### 1. 상품 DB 필터링 API
 소스코드: [Solchall/filtering-prompt](https://github.com/Solchall/filtering-prompt) <br>
 
 <img width="500" alt="image" src="https://github.com/Solchall/.github/assets/71062967/69c7ef0a-5243-4163-ad1b-365e327b5de6">
@@ -39,7 +39,7 @@
 
 <br>
 
-### 컨텐츠 DB 선정 API
+### 2. 컨텐츠 DB 선정 API
 소스코드: [Solchall/filtering-magazine](https://github.com/Solchall/filtering-magazine) <br>
 
 <img width="500" alt="image" src="https://github.com/Solchall/.github/assets/71062967/50ca84cf-28a3-4ff8-828f-736761ead0a3">
@@ -61,34 +61,46 @@
 ![image](https://github.com/Solchall/.github/assets/71062967/4effd7ce-ee19-4a2d-a92f-7a45e8240fe4)
 
 
-## Chrome Extenstion Interacting with Web Site
+## 👒 Chrome Extenstion Interacting with Web Site
 
-### 크롬 익스텐션 요소 기술 구현
+### 1. 크롬 익스텐션 요소 기술 구현
 
-**1. 서비스 플로우 명세**
+**1-1. 서비스 플로우 명세**
 * [x] UI 및 인터랙션 플로우  - [프로토 타입](https://www.figma.com/proto/yS1dxiMOGnS8T1DuY0D3aB/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90?page-id=201%3A6&type=design&node-id=308-499&viewport=106%2C618%2C0.04&scaling=scale-down&starting-point-node-id=308%3A94)<br/>
 
-**2. 다중 Tab 제어 및 Web Contents 접근**
+**1-2. 다중 Tab 제어 및 Web Contents 접근**
 
 [깃허브 소스 코드 레포](https://github.com/Solchall/chrome-extension/tree/main/Crawl%20Multi%20Tabs%20-%20React)
 * [x] open된 다수의 탭의 정보 불러오기
 * [x] open된 다수의 탭 중 host에 따른 서로 다른 web content 조작 구동
 * [x] open된 다수의 탭의 web content (썸네일, 제목, 조회수/좋아요) 정보 가져와 팝업 창에 조회수 순 나열<br/>
 
-**3. REST API 연결 및 Storage 활용**
+**1-3. REST API 연결 및 Storage 활용**
 
 [깃허브 소스 코드 레포](https://github.com/Solchall/chrome-extension/tree/main/API%20-%20Option%20Page)
 * [x] 익스텐션 웹페이지 form 생성과 유저 입력값 핸들링
 * [x] 익스텐션 웹페이지 내 http 기반 REST API 연결
 * [X] chrome Storage 값 get/set
 
-**4. Web Socket 기반 채팅 및 페이지 다이나믹 랜더링**
+**1-4. Web Socket 기반 채팅 및 페이지 다이나믹 랜더링**
 * [ ] 익스텐션 팝업 내 web socket 기반 채팅 통신
 * [ ] 익스텐션 팝업 내 페이지 전환 기법에 대응하는 기술 
 
-### 크롬 익스텐션 실행 방법
-[설명 READ ME](https://github.com/Solchall/chrome-extension/blob/main/Crawl%20Multi%20Tabs%20-%20React/README.md)
+### 2. 크롬 익스텐션 실행 방법
+다음의 [READ ME](https://github.com/Solchall/chrome-extension/blob/main/Crawl%20Multi%20Tabs%20-%20React/README.md)과정을 따라 직접 실행할 수 있습니다.
 
+### 3. 주요 구현 코드
 
+**3-1. 다중 Tab 제어**
+1. `async function getAllTabs()` : [열린 모든 Tab 정보를 받아오는 함수](https://github.com/Solchall/chrome-extension/blob/main/Crawl%20Multi%20Tabs%20-%20React/src/background/tabControl.tsx#L1)
 
+**3-2. Web Content 접근**
 
+[활용 아키텍쳐 설명](https://hixsch-kixsch59.tistory.com/105)
+![아키텍처](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcrJALl%2FbtshjudYldv%2FhrYjWjCi6W3117lyVlDWu0%2Fimg.png)
+* `crawlMultiTabsHandler` : [유저의 이벤트에 따른 메세지 API 송신/수신 발생](https://github.com/Solchall/chrome-extension/blob/main/Crawl%20Multi%20Tabs%20-%20React/src/popup/popup.tsx#L26)
+* `function checkUrlFromTab(url: string)` : [특정 Tab URL에 따라 실행되는 js 파일 지정하는 함수](https://github.com/Solchall/chrome-extension/blob/main/Crawl%20Multi%20Tabs%20-%20React/src/background/tabControl.tsx#L1)
+
+### 4. 시연 및 테스팅 영상
+[깃허브 소스 코드 레포](https://github.com/Solchall/chrome-extension/tree/main/Crawl%20Multi%20Tabs%20-%20React)
+[시연 및 테스팅 영상](https://drive.google.com/file/d/176k4IrIkyV97IYE2huRrtBUHC6b9FOly/view)
