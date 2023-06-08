@@ -5,9 +5,7 @@
 
 ## 👗 Prototype
 
-[Figma](https://www.figma.com/proto/yS1dxiMOGnS8T1DuY0D3aB/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90?page-id=201%3A6&type=design&node-id=308-499&viewport=106%2C618%2C0.04&scaling=scale-down&starting-point-node-id=308%3A94)
-
-![캡스톤_동적프로토](https://github.com/Solchall/.github/assets/71062967/540e803c-e885-4967-b428-3e9083b0f4d4)
+![프로토타입 동적 구현 영상](https://youtu.be/StQJ4zX_bko)
 
 <br>
 
