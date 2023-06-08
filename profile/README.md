@@ -64,7 +64,7 @@
 ### 1. 크롬 익스텐션 요소 기술 구현
 
 **1-1. 서비스 플로우 명세**
-* [x] UI 및 인터랙션 플로우  - [프로토 타입](https://www.figma.com/proto/yS1dxiMOGnS8T1DuY0D3aB/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90?page-id=201%3A6&type=design&node-id=308-499&viewport=106%2C618%2C0.04&scaling=scale-down&starting-point-node-id=308%3A94)<br/>
+* [x] UI 및 인터랙션 플로우  - [프로토타입 영상](https://youtu.be/StQJ4zX_bko)<br/>
 
 **1-2. 다중 Tab 제어 및 Web Contents 접근**
 
