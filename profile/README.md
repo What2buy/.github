@@ -5,7 +5,7 @@
 
 ## 👗 Prototype
 
-![프로토타입 동적 구현 영상](https://youtu.be/StQJ4zX_bko)
+[프로토타입 동적 구현 영상](https://youtu.be/StQJ4zX_bko)
 
 <br>
 
