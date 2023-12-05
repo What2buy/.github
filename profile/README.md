@@ -30,7 +30,6 @@ Description of used open source (if any)
 
 [참고 깃허브-강계]
 https://github.com/chuckchuck-gojol/wiing-wiing
-
 ```
 
 ## 👕 Service Flow
