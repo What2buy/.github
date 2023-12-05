@@ -1,5 +1,35 @@
 # 뭐 찾으세요?: 온라인 가상 점원 서비스
 
+
+```
+제출 source code
+반드시 github.com에 upload해야 함. (기존 사용하던 repository를 제출해도 됨)
+Repo가 여러 개인 경우, 해당 내용을 모두 기술 (구글 form: shift-enter 이용)
+채점 기준: 여러분 과제를 git clone해서 다시 re-generate할 수 있는가?
+기본 설명 (README.md)
+반드시 code를 만들어 낼 수 있는 방법 or script 를 repo에 포함 + Script (예, makefile?) 포함
+Proto-system을 설치할 수 있는 방법 설명 + script를 포함
+데이터가 필요한 경우, sample or proto-data 포함 (DB, 파일, object등)
+연구 트랙의 경우, 실험 데이터 / 실험 결과물을 반드시 포함
+Open source를 가져다 사용하는 경우, 해당 내용을 반드시 README.md에 포함할 것.
+
+시제품 
+휴대폰 app인 경우, apk / PC 혹은 외부 comput의 app인 경우, executable code + data (tar/zip 형태)
+Server의 경우, executable / runtime data (필요한) 포함 / 동작 환경 관련 정보 (서버 주소/테스트 계정등)
+README 혹은 README.install 파일.
+
+
+기본 설명 (README.md)
+Source code에 대한 설명
+How to build
+How to install
+How to test
+
+Description of sample data (if any)
+Description of used open source (if any)
+
+```
+
 ## 👕 Service Flow
 ![Service Flow](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXCSOD%2FbtsiOHaZXuD%2FJ2NNaPCC8urxb9AVehSeyK%2Fimg.png)
 
