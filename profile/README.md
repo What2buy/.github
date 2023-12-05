@@ -157,63 +157,6 @@ password: 1234567890a!
 ![image](https://github.com/Solchall/.github/assets/71062967/4effd7ce-ee19-4a2d-a92f-7a45e8240fe4)
 
 
-## 👒 Chrome Extenstion Interacting with Web Site
-
-### 1. 크롬 익스텐션 요소 기술 구현
-
-**1-1. 서비스 플로우 명세**
-* [x] UI 및 인터랙션 플로우  - [프로토타입 영상](https://youtu.be/StQJ4zX_bko)<br/>
-
-**1-2. 다중 Tab 제어 및 Web Contents 접근**
-
-[깃허브 소스 코드 레포](https://github.com/Solchall/chrome-extension/tree/main/Crawl%20Multi%20Tabs%20-%20React)
-* [x] open된 다수의 탭의 정보 불러오기
-* [x] open된 다수의 탭 중 host에 따른 서로 다른 web content 조작 구동
-* [x] open된 다수의 탭의 web content (썸네일, 제목, 조회수/좋아요) 정보 가져와 팝업 창에 조회수 순 나열<br/>
-
-**1-3. REST API 연결 및 Storage 활용**
-
-[깃허브 소스 코드 레포](https://github.com/Solchall/chrome-extension/tree/main/API%20-%20Option%20Page)
-* [x] 익스텐션 웹페이지 form 생성과 유저 입력값 핸들링
-* [x] 익스텐션 웹페이지 내 http 기반 REST API 연결
-* [X] chrome Storage 값 get/set
-
-**1-4. Web Socket 기반 채팅 및 페이지 다이나믹 랜더링**
-* [ ] 익스텐션 팝업 내 web socket 기반 채팅 통신
-* [ ] 익스텐션 팝업 내 페이지 전환 기법에 대응하는 기술 
-
-### 2. 크롬 익스텐션 실행 방법
-다음의 [READ ME](https://github.com/Solchall/chrome-extension/blob/main/Crawl%20Multi%20Tabs%20-%20React/README.md)과정을 따라 직접 실행할 수 있습니다.
-
-<table>
-    <tr>
-       <th>Web Content 접근 버튼 클릭 전</th>
-       <th>지정한 탭에서만 Web Contents 끌어옴</th>
-        <th>지정한 탭 아닌 곳에서는 텍스트 색상 변경함</th>
-   </tr>
-    <tr>
-       <td><img width="1425" alt="image" src="https://github.com/Solchall/.github/assets/67853616/89da4c96-0882-4f55-83ea-03aef55b1098"></td>
-       <td><img width="1391" alt="image" src="https://github.com/Solchall/.github/assets/67853616/3a0fdd05-eef1-4fc2-a427-751260374b7f"></td>
-       <td><img width="1108" alt="image" src="https://github.com/Solchall/.github/assets/67853616/901c67f1-de38-4fcd-90d0-b6a1bcbb87aa"></td></tr>
-</table>
-
-
-
-
-
-
-### 3. 주요 구현 코드
-
-**3-1. 다중 Tab 제어**
-1. `async function getAllTabs()` : [열린 모든 Tab 정보를 받아오는 함수](https://github.com/Solchall/chrome-extension/blob/main/Crawl%20Multi%20Tabs%20-%20React/src/background/tabControl.tsx#L1)
-
-**3-2. Web Content 접근**
-
-[활용 아키텍쳐 설명](https://hixsch-kixsch59.tistory.com/105)
-![아키텍처](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcrJALl%2FbtshjudYldv%2FhrYjWjCi6W3117lyVlDWu0%2Fimg.png)
-* `crawlMultiTabsHandler` : [유저의 이벤트에 따른 메세지 API 송신/수신 발생](https://github.com/Solchall/chrome-extension/blob/main/Crawl%20Multi%20Tabs%20-%20React/src/popup/popup.tsx#L26)
-* `function checkUrlFromTab(url: string)` : [특정 Tab URL에 따라 실행되는 js 파일 지정하는 함수](https://github.com/Solchall/chrome-extension/blob/main/Crawl%20Multi%20Tabs%20-%20React/src/background/tabControl.tsx#L1)
-
 ### 4. 시연 및 테스팅 영상
 * [깃허브 소스 코드 레포](https://github.com/Solchall/chrome-extension/tree/main/Crawl%20Multi%20Tabs%20-%20React)
 * [시연 및 테스팅 영상](https://drive.google.com/file/d/176k4IrIkyV97IYE2huRrtBUHC6b9FOly/view)
