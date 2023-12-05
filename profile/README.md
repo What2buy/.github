@@ -31,6 +31,13 @@ Description of used open source (if any)
 [참고 깃허브-강계]
 https://github.com/chuckchuck-gojol/wiing-wiing
 ```
+## 레포지토리 구성
+**1. AI : 프롬프트**
+추가해줭~
+**2. Front-end : 웹 클라이언트**
+https://github.com/Solchall/whaat2Buy-FE
+**3. Back-end : 웹 서버**
+https://github.com/Solchall/whaat2Buy-BE
 
 ## 👕 Service Flow
 ![Service Flow](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXCSOD%2FbtsiOHaZXuD%2FJ2NNaPCC8urxb9AVehSeyK%2Fimg.png)
