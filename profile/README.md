@@ -34,8 +34,10 @@ https://github.com/chuckchuck-gojol/wiing-wiing
 ## 레포지토리 구성
 **1. AI : 프롬프트**
 추가해줭~
+
 **2. Front-end : 웹 클라이언트**
 https://github.com/Solchall/whaat2Buy-FE
+
 **3. Back-end : 웹 서버**
 https://github.com/Solchall/whaat2Buy-BE
 
