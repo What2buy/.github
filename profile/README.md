@@ -92,6 +92,12 @@ email: 웅앵웅앵@gmail.com
 password: 1234567890a!
 ```
 
+## 시제품 웹사이트 
+웹사이트 링크~~
+
+## 시연 영상
+유트브 링크~~~
+
 ## 👕 Service Flow
 ![Service Flow](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXCSOD%2FbtsiOHaZXuD%2FJ2NNaPCC8urxb9AVehSeyK%2Fimg.png)
 
