@@ -1,6 +1,6 @@
 # 뭐 찾으세요?: 온라인 가상 점원 서비스
 
-
+## 캡스톤 디자인 경진대회 머시기 하튼 수상작
 ```
 [제출 source code]
 반드시 github.com에 upload해야 함. (기존 사용하던 repository를 제출해도 됨)
@@ -43,8 +43,10 @@ https://github.com/Solchall/whaat2Buy-BE
 
 ## 실행 방법
 0. 실행 환경
+
 node.js 설치
 git 설치
+
 ```
 node -v
 
@@ -92,14 +94,30 @@ email: 웅앵웅앵@gmail.com
 password: 1234567890a!
 ```
 
-## 시제품 웹사이트 
+## 프로젝트 소개
+
+## 프로젝트 목적
+
+## 서비스 흐름도
+![Service Flow](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXCSOD%2FbtsiOHaZXuD%2FJ2NNaPCC8urxb9AVehSeyK%2Fimg.png)
+
+## 프로젝트 기술
+1. 룽하ㅣㅜ리
+2. ㅜ하ㅣ뉘ㅏㅎㄴ
+3. ㅟㅏ루ㅏㅣㅎㄹ
+4. ㅜ아ㅣ누ㅏ인
+
+
+## 배포 웹사이트 - 시제품
 웹사이트 링크~~
 
 ## 시연 영상
 유트브 링크~~~
 
-## 👕 Service Flow
-![Service Flow](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXCSOD%2FbtsiOHaZXuD%2FJ2NNaPCC8urxb9AVehSeyK%2Fimg.png)
+## 포스터
+
+
+
 
 ## 👗 Prototype
 
