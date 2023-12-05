@@ -41,6 +41,57 @@ https://github.com/Solchall/whaat2Buy-FE
 **3. Back-end : 웹 서버**
 https://github.com/Solchall/whaat2Buy-BE
 
+## 실행 방법
+0. 실행 환경
+node.js 설치
+git 설치
+```
+node -v
+
+npm -v
+
+git -v
+```
+
+2. clone github repository
+```
+git clone https://github.com/Solchall/whaat2Buy-FE.git
+```
+
+2. move to project folder as base directory
+```
+cd whaat2Buy-FE
+```
+
+3. make `.env` file in base directory
+```
+REACT_APP_AI_API=https://what2buy-o3mazxvlva-du.a.run.app
+REACT_APP_OPEN_AI_KEY=아마 없어도 잘 돌아갈텐디 좀 확인 해봐
+REACT_APP_SERVER_API=https://whaat2buy-be.onrender.com/api
+```
+
+4. how to install package
+```
+npm i
+```
+
+5. how to build project
+```
+npm run build
+```
+
+6. how to start
+```
+npm start
+```
+
+7. how to login
+테스트 계정 정보
+```
+email: 웅앵웅앵@gmail.com
+password: 1234567890a!
+```
+
 ## 👕 Service Flow
 ![Service Flow](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXCSOD%2FbtsiOHaZXuD%2FJ2NNaPCC8urxb9AVehSeyK%2Fimg.png)
 
