@@ -17,6 +17,7 @@ Open source를 가져다 사용하는 경우, 해당 내용을 반드시 README.
 휴대폰 app인 경우, apk / PC 혹은 외부 comput의 app인 경우, executable code + data (tar/zip 형태)
 Server의 경우, executable / runtime data (필요한) 포함 / 동작 환경 관련 정보 (서버 주소/테스트 계정등)
 README 혹은 README.install 파일.
+실물/앱 다운로드 파일(.apk), 웹 접속주소, 테스트계정이 사전 제공해야함
 
 
 기본 설명 (README.md)
@@ -24,7 +25,6 @@ Source code에 대한 설명
 How to build
 How to install
 How to test
-
 Description of sample data (if any)
 Description of used open source (if any)
 
