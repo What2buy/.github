@@ -125,10 +125,11 @@ npm i
 npm start
 ```
 
-**6. how to login**
+**6.테스트 계정 로그인**
+
 다음의 테스트 계정을 통해 로그인 가능
 ```
-email: 웅앵웅앵@gmail.com
+email: test3@gmail.com
 password: 1234567890a!
 ```
 
