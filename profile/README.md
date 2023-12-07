@@ -41,8 +41,6 @@ https://github.com/chuckchuck-gojol/wiing-wiing
 ## 프로젝트 목적
 기존의 온라인 쇼핑몰은 방대한 상품 정보 및 리뷰 확인으로 인한 사용자의 많은 시간과 수고로움을 필요로 하는 문제가 발생함. 온라인 쇼핑에도 오프라인의 점원처럼 고객의 자유로운 자연어 요청을 이해하고 상품 데이터를 활용하고 다른 고객의 경험을 종합적으로 고려해 사용자 맞춤형 쇼핑 서비스 제공이 필요됨. 원하는 상품 및 스타일을 자유롭게 검색창에 입력하거나 채팅창에 상품에 대해 궁금한 점을 입력해 1:1 대화형 채팅을 통해 점원과 대화하듯 사용자에게 즉각적인 응답을 제공하는 서비스를 개발하고자 함.
 
-## 서비스 시나리오
-![Service Flow](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXCSOD%2FbtsiOHaZXuD%2FJ2NNaPCC8urxb9AVehSeyK%2Fimg.png)
 
 ## 프로젝트 기술
 1. 생성형 AI + LangChain을 활용한 Prompt Engineering
@@ -64,6 +62,8 @@ https://preeminent-fudge-566432.netlify.app/
 ## 시연 영상
 [유투브 시연 영상](https://youtu.be/kU2kh1HcYP4?feature=shared)
 
+## 서비스 시나리오
+![Service Flow](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXCSOD%2FbtsiOHaZXuD%2FJ2NNaPCC8urxb9AVehSeyK%2Fimg.png)
 
 ## 포스터
 ![포스터](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkA6zE%2FbtsBvSr9U0S%2FqTnDHGRR7tsgFk4M6KhbRk%2Fimg.png)
