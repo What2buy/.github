@@ -134,7 +134,30 @@ password: 1234567890a!
 
 
 ## 🧑‍💻 팀원
+<table border="1" cellspacing="0" cellpadding="0" width="60%">
+    <tr width="100%">
+        <td width="33%" align="center"><a href= "https://github.com/ayla-kim">하수민</a></td>
+        <td width="33%" align="center"><a href= "https://github.com/SeoJimin1234">정유리</a></td>
+        <td width="33%" align="center"><a href= "https://github.com/JangAyeon">장아연</a></td>
+    </tr>
+    <tr width="90%">
+        <td width="33%" align="center"><img src = "https://github.com/ayla-kim.png"></td>
+        <td width="33%" align="center"><img src = "https://github.com/SeoJimin1234.png"/></td>
+        <td width="33%" align="center"><img src = "https://github.com/JangAyeon.png"/></td>
+    </tr>
+    <tr width="100%">
+        <td width="30%" align="center">
+          역할 적어주새용
+          </td>
+        <td width="30%" align="center">
+        역할 적어주새용
+        </td>
+        <td width="30%" align="center">
+        FE & BE & 웹 서비스 배포
+        </td>
 
+   </tr>
+</table>
 
 
 ## 👗 Prototype
