@@ -41,54 +41,55 @@ https://github.com/Solchall/whaat2Buy-FE
 **3. Back-end : 웹 서버**
 https://github.com/Solchall/whaat2Buy-BE
 
-## 실행 방법
-0. 실행 환경
+## 📃 실행 환경 및 방법
 
-node.js 설치
-git 설치
+**0. 실행 환경**
+
+`node.js`, `npm`, `git` 설치가 요구됨
 
 ```
-node -v
+$ node -v
+v20.8.0
 
-npm -v
+$ npm -v
+10.2.0
 
-git -v
+$ git -v
+git version 2.39.2
 ```
 
-2. clone github repository
+**1. 프로젝트 clone**
 ```
 git clone https://github.com/Solchall/whaat2Buy-FE.git
 ```
 
-2. move to project folder as base directory
+**2. 프로젝트 폴더로 이동**
 ```
 cd whaat2Buy-FE
 ```
+**3. 환경 변수 파일 생성**
 
-3. make `.env` file in base directory
+다음의 내용이 담긴 `.env` 파일을 base directory에 추가 작성함
 ```
 REACT_APP_AI_API=https://what2buy-o3mazxvlva-du.a.run.app
-REACT_APP_OPEN_AI_KEY=아마 없어도 잘 돌아갈텐디 좀 확인 해봐
 REACT_APP_SERVER_API=https://whaat2buy-be.onrender.com/api
+REACT_APP_OPEN_AI_KEY=아마 없어도 잘 돌아갈텐디 좀 확인 해봐
 ```
 
-4. how to install package
+**4. 실행에 필요한 패키지 설치**
 ```
 npm i
 ```
 
-5. how to build project
-```
-npm run build
-```
+**5. 프로젝트 실행**
 
-6. how to start
+기본 주소는 http://localhost:3000, 해당 주소로 접속
 ```
 npm start
 ```
 
-7. how to login
-테스트 계정 정보
+**6. how to login**
+다음의 테스트 계정을 통해 로그인 가능
 ```
 email: 웅앵웅앵@gmail.com
 password: 1234567890a!
