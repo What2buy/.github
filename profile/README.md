@@ -160,6 +160,8 @@ password: 1234567890a!
 </table>
 
 
+
+# 이 밑에 내용 지워야 함!!!!!
 ## 👗 Prototype
 
 [프로토타입 동적 구현 영상](https://youtu.be/StQJ4zX_bko)
