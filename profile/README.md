@@ -136,12 +136,12 @@ password: 1234567890a!
 ## 🧑‍💻 팀원
 <table border="1" cellspacing="0" cellpadding="0" width="60%">
     <tr width="100%">
-        <td width="33%" align="center"><a href= "https://github.com/ayla-kim">하수민</a></td>
+        <td width="33%" align="center"><a href= "https://github.com/minha62">하수민</a></td>
         <td width="33%" align="center"><a href= "https://github.com/SeoJimin1234">정유리</a></td>
         <td width="33%" align="center"><a href= "https://github.com/JangAyeon">장아연</a></td>
     </tr>
     <tr width="90%">
-        <td width="33%" align="center"><img src = "https://github.com/ayla-kim.png"></td>
+        <td width="33%" align="center"><img src = "https://github.com/minha62.png"></td>
         <td width="33%" align="center"><img src = "https://github.com/SeoJimin1234.png"/></td>
         <td width="33%" align="center"><img src = "https://github.com/JangAyeon.png"/></td>
     </tr>
