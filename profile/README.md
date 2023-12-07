@@ -68,7 +68,7 @@ https://preeminent-fudge-566432.netlify.app/
 ## 포스터
 ![포스터](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkA6zE%2FbtsBvSr9U0S%2FqTnDHGRR7tsgFk4M6KhbRk%2Fimg.png)
 
-## 📁 레포지토리 구성
+## 레포지토리 구성
 **1. AI : 프롬프트**
 추가해줭~
 
@@ -78,7 +78,7 @@ https://github.com/Solchall/whaat2Buy-FE
 **3. Back-end : 웹 서버**
 https://github.com/Solchall/whaat2Buy-BE
 
-## 📃 실행 환경 및 방법
+## 실행 환경 및 방법
 
 **0. 실행 환경**
 
