@@ -81,7 +81,6 @@ cd whaat2Buy-FE
 ```
 REACT_APP_AI_API=https://what2buy-o3mazxvlva-du.a.run.app
 REACT_APP_SERVER_API=https://whaat2buy-be.onrender.com/api
-REACT_APP_OPEN_AI_KEY=아마 없어도 잘 돌아갈텐디 좀 확인 해봐
 ```
 
 **4. 실행에 필요한 패키지 설치**
