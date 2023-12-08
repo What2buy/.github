@@ -148,7 +148,7 @@ password: 1234567890a!
     </tr>
     <tr width="100%">
         <td width="30%" align="center">
-          역할 적어주새용
+          팀장 & AI & BE
           </td>
         <td width="30%" align="center">
         역할 적어주새용
