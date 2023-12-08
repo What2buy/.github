@@ -70,13 +70,13 @@ https://preeminent-fudge-566432.netlify.app/
 
 ## 레포지토리 구성
 **1. AI : 프롬프트**
-https://github.com/Solchall/what2buy-AI
+https://github.com/What2buy/what2buy-AI
 
 **2. Front-end : 웹 클라이언트**
-https://github.com/Solchall/whaat2Buy-FE
+https://github.com/What2buy/whaat2Buy-FE
 
 **3. Back-end : 웹 서버**
-https://github.com/Solchall/whaat2Buy-BE
+https://github.com/What2buy/whaat2Buy-BE
 
 ## 실행 환경 및 방법
 
