@@ -53,6 +53,7 @@ https://github.com/What2buy/whaat2Buy-BE
 
 **0. 실행 환경**
 
+다음의 과정을 통해 서비스 실행에 필요한 모든 파일 빌드 가능
 `node.js`, `npm`, `git` 설치가 요구됨
 
 ```
