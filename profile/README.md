@@ -151,7 +151,7 @@ password: 1234567890a!
           팀장 & AI & BE
           </td>
         <td width="30%" align="center">
-        역할 적어주새용
+        AI & BE
         </td>
         <td width="30%" align="center">
         FE & BE & 웹 서비스 배포
