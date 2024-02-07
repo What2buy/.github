@@ -27,9 +27,6 @@
 4. 기존 쇼핑몰 UI과 대화형 UI 혼합한 인터페이스 개발
 
 
-## 웹사이트 
-https://preeminent-fudge-566432.netlify.app/
-
 ## 시연 영상
 [유투브 시연 영상](https://youtu.be/kU2kh1HcYP4?feature=shared)
 
